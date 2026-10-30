@@ -1,0 +1,110 @@
+/* ==========================================
+   STYLE UMUM & SMOOTH SCROLLING
+   ========================================== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* ==========================================
+   NAVBAR STYLING
+   ========================================== */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================
+   SECTION BERANDA (HERO SECTION)
+   ========================================== */
+#Beranda {
+  background: linear-gradient(135deg, #0dcaf0 0%, #0aa2c0 100%);
+  border-bottom: 4px solid #087990;
+}
+
+#Beranda h1 {
+  letter-spacing: 1px;
+}
+
+#Beranda p {
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+#Beranda .btn {
+  transition: all 0.3s ease;
+}
+
+#Beranda .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ==========================================
+   SECTION PEMINATAN
+   ========================================== */
+#Peminatan .card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+#Peminatan .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+#Peminatan .card-img-top {
+  height: 200px;
+  object-fit: cover; /* Agar gambar tidak gepeng */
+}
+
+#Peminatan .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+#Peminatan .card-text {
+  font-size: 0.9rem;
+  color: #555;
+  flex-grow: 1;
+}
+
+/* ==========================================
+   SECTION KONTAK
+   ========================================== */
+#kontak .card {
+  transition: transform 0.2s ease;
+}
+
+#kontak .card:hover {
+  transform: scale(1.02);
+}
+
+#kontak form .form-control {
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+}
+
+#kontak form .form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+#kontak button[type="submit"] {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#kontak button[type="submit"]:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-1px);
+}

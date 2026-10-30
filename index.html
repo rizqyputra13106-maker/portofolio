@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light p-2 mb-1 sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold lh-sm fs-6" href="#">
+          FAKULTAS <br> TEKNOLOGI INFORMASI
+        </a>
+        <a class="navbar-brand fs-5 ms-auto me-3" href="#">UNU JOGJA</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Peminatan">Peminatan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#kontak" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kontak
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SECTION BERANDA -->
+    <section id="Beranda" class="bg-info text-white p-1 p-lg-2 pt-lg-5 text-center text-sm-start">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-start mb-4 mb-md-0">
+            <h1><b>INFORMATIKA</b></h1>
+            <p>
+              Program Studi Informatika Universitas Nahdlatul Ulama (UNU) Yogyakarta hadir sebagai wadah pencetak talenta digital masa depan
+              yang memadukan keahlian teknologi modern—seperti pemrosesan data, rekayasa perangkat lunak, dan sistem cerdas—
+              dengan nilai-nilai kebangsaan serta karakter islami yang unggul. 
+              Bertekad melahirkan lulusan yang tak hanya mahir secara teknis namun juga adaptif terhadap perkembangan tren industri global,
+              Informatika UNU Jogja siap mencetak para inovator yang siap memberikan dampak nyata bagi kemajuan masyarakat di era digital.
+            </p>
+            <a href="#https://admisi.unu-jogja.ac.id/program-studi-detail/detail/55202" class="btn btn-light text-dark fw-bold">Pelajari Lebih Lanjut</a>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="img/logo himatika.png" class="img-fluid w-50 d-none d-sm-inline-block ms-auto" alt="logo himatika">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION PEMINATAN -->
+    <section id="Peminatan">
+      <div class="container py-4">
+        <div class="border bg-info border-danger rounded-3 p-4 text-center">
+          <h2 class="py-1">Peminatan</h2>
+          <p class="py-1 mb-0">Ada 3 fokus utama Informatika UNU Jogja</p>
+        </div>
+        
+        <div class="row justify-content-center g-4 mt-2">
+          <!-- Card 1 -->
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 100%; max-width: 350px;">
+              <img class="card-img-top" src="img/image.png" alt="Jaringan Komputer" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Jaringan Komputer</h4>
+                <p class="card-text">
+                  Bidang studi yang fokus pada perancangan, pembangunan, pengelolaan, 
+                  dan pengamanan infrastruktur komunikasi data antarperangkat.
+                </p>
+                <a href="#" class="btn btn-primary">Pelajari Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 100%; max-width: 350px;">
+              <img class="card-img-top" src="img/Social Media 192 - ÍCONE 3D RENDER ESCUDO DE PRIVACIDADE DE DADOS TRANSLÚCIDO EM VIDRO CRISTALINO___.jpg" alt="Rekayasa Perangkat Lunak" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Rekayasa Perangkat Lunak</h4>
+                <p class="card-text">
+                  Jurusan yang berfokus pada perancangan, pengembangan, pengujian, 
+                  dan pemeliharaan perangkat lunak (aplikasi dan sistem) secara profesional.
+                </p>
+                <a href="#" class="btn btn-primary">Pelajari Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card" style="width: 100%; max-width: 350px;">
+              <img class="card-img-top" src="img/Play.jpg" alt="MultiMedia" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">MultiMedia</h4>
+                <p class="card-text">
+                  Jurusan multimedia mempelajari elemen teks, gambar, suara, animasi, 
+                  dan video menggunakan teknologi digital untuk menciptakan media komunikasi interaktif.
+                </p>
+                <a href="#" class="btn btn-primary">Pelajari Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!-- SECTION KONTAK -->
+    <section id="kontak" class="py-4">
+      <div class="container">
+        <div class="row g-3 align-items-center">
+          
+          <!-- KIRI: 4 CARD INFORMASI -->
+          <div class="col-lg-5">
+            <div class="row row-cols-2 g-2">
+              
+              <!-- Card 1: Alamat -->
+              <div class="col">
+                <div class="card h-100 border-0 shadow-sm text-center p-2 bg-light text-dark">
+                  <div class="card-body p-1">
+                    <div class="fs-3 text-dark mb-1">📍</div>
+                    <h6 class="fw-bold text-uppercase mb-1" style="font-size: 0.75rem;">Alamat</h6>
+                    <p class="text-muted mb-0" style="font-size: 0.7rem;">Jl. Ringroad Barat, Dowangan, Banyuraden, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2: Telepon -->
+              <div class="col">
+                <div class="card h-100 border-0 shadow-sm text-center p-2 bg-light text-dark">
+                  <div class="card-body p-1">
+                    <div class="fs-3 text-dark mb-1">📞</div>
+                    <h6 class="fw-bold text-uppercase mb-1" style="font-size: 0.75rem;">No Telepon</h6>
+                    <a class="text-muted text-primary text-decoration-none mb-0" style="font-size: 0.7rem;" href="tel:+6282233323226">+62 822-3332-3226<br>(Layanan Informasi)</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3: Fax / PMB -->
+              <div class="col">
+                <div class="card h-100 border-0 shadow-sm text-center p-2 bg-light text-dark">
+                  <div class="card-body p-1">
+                    <div class="fs-3 text-dark mb-1">📠</div>
+                    <h6 class="fw-bold text-uppercase mb-1" style="font-size: 0.75rem;">Website PMB</h6>
+                    <a class="text-muted text-primary mb-0" style="font-size: 0.7rem;" href="http://pmb.unu-jogja.ac.id/" target="_blank">http://pmb.unu-jogja.ac.id/</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4: Email -->
+              <div class="col">
+                <div class="card h-100 border-0 shadow-sm text-center p-2 bg-light text-dark">
+                  <div class="card-body p-1">
+                    <div class="fs-3 text-dark mb-1">✉️</div>
+                    <h6 class="fw-bold text-uppercase mb-1" style="font-size: 0.75rem;">Email</h6>
+                    <a href="mailto:pmb@unu-jogja.ac.id" class="text-decoration-underline text-primary fw-semibold" style="font-size: 0.7rem;">pmb@unu-jogja.ac.id</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- KANAN: FORM CONTACT US -->
+          <div class="col-lg-6">
+            <div class="bg-primary text-white p-3 p-md-4 rounded-3 shadow">
+              <h4 class="text-center fw-bold mb-3">Hubungi Lebih Lanjut</h4>
+              
+              <form>
+                <!-- Input Nama -->
+                <div class="mb-2">
+                  <input type="text" class="form-control form-control-sm border-0" placeholder="Enter your Name" required>
+                </div>
+                
+                <!-- Input Email -->
+                <div class="mb-2">
+                  <input type="email" class="form-control form-control-sm border-0" placeholder="Enter a valid email address" required>
+                </div>
+                
+                <!-- Input Pesan -->
+                <div class="mb-3">
+                  <textarea class="form-control form-control-sm border-0" rows="2" placeholder="Enter your message" required></textarea>
+                </div>
+                
+                <!-- Tombol Submit -->
+                <div class="text-start">
+                  <button type="submit" class="btn btn-sm btn-light text-dark text-uppercase fw-bold px-3 py-1">OKEE</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS Bundle (Sudah include Popper JS) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
